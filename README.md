@@ -1,13 +1,14 @@
-** Project based on http://www.dotnetcurry.com/aspnet/1394/aspnet-core-knockout
+### Project based on http://www.dotnetcurry.com/aspnet/1394/aspnet-core-knockout
 1. `dotnet new knockout`
 2. `npm install`
 3. `dotnet run`
 
-** This portion is from  [Web API Tutorial](https://docs.microsoft.com/en-us/aspnet/core/tutorials/web-api-vsc#add-support-for-entity-framework-core)
+### This portion is from  [Web API Tutorial](https://docs.microsoft.com/en-us/aspnet/core/tutorials/web-api-vsc#add-support-for-entity-framework-core)
+
 4. add Models folder, include EF Context
     * May need extra DbSet for different models?
 
-** This portion is from [Use SQLite instead of InMemory](https://docs.microsoft.com/en-us/ef/core/get-started/netcore/new-db-sqlite)    
+### This portion is from [Use SQLite instead of InMemory](https://docs.microsoft.com/en-us/ef/core/get-started/netcore/new-db-sqlite)    
 5. Add entity framework packages in terminal
     ```
     dotnet add package Microsoft.EntityFrameworkCore.Sqlite
